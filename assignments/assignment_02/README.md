@@ -127,6 +127,8 @@ mv hpc_transfer.txt hash_match/
 mv download_lftp.txt hash_match/
 
 
+My final architecture had one dir called data with the .gz files and another directory called hash_match which contains that md5sum output from the files on my local computer and the hpc. There is also a README.md.
+
 Then I started to add those bash aliases to HPC .bashrc, so I did:
 
 cd
