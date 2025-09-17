@@ -23,6 +23,8 @@ touch README.md
 
 # My assignment is strucutured to have a README.md, as well as a data directory where the fasta seq is located and any new files I may create.
 
+# After realizing the fasta files can't be pushed to my git main, I just added an empty file called blank.fasta in the data directory using touch. 
+
 # TASK 2 - Download and prep files
 
 cd data/
@@ -87,7 +89,7 @@ paste <(grep -i ">" GCF_000001735.4_TAIR10.1_genomic.fna) <(grep -i ">" GCF_0000
 
 awk -F'\t' -v OFS='\t' '{print substr($1,1,100), substr($2,1,100)}' new_tsv.txt | column -ts $'\t' | less -S
 
-# I believe this is looking into each of the columns and showing the first 100 characters. This helped confirm my command was working.
+# I believe this is looking into each of the columns and showing the first 100 characters. This helped confirm my command was working. I also had to delete this file (new_tsv.txt) before I could push to git, because it was so big.
 
 # TASK 5 - Reflection
 
