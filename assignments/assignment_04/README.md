@@ -1,4 +1,4 @@
-#Namit Nallapaneni, Assignment 04, 9/22/25
+# Namit Nallapaneni, Assignment 04, 9/22/25
 
 # Task 1
 
@@ -20,7 +20,7 @@ tar -xzvf gh_2.74.2_linux_amd64.tar.gz
 
 rm gh_2.74.2_linux_amd64.tar.gz 
 
-#Task 3
+# Task 3
 
 ## In my assignment 4 directory, I made a dir called scripts
 
@@ -52,7 +52,7 @@ cd
 
 ## I added a cd at the end to get out of the programs directory, but I'm not sure if this does anything
 
-#Task 4
+# Task 4
 
 ## I ran it by first deleting the old gh auth, then I cd'ed to my script, made it executable, then used ./ to run it
 
@@ -64,14 +64,14 @@ cd BIOCOMPUTING/assignments/assignment_04/scripts/
 
 ./install_gh.sh 
 
-#Task 5
+# Task 5
 
 ## I added the following line to the bottom of my .bashrc
 export PATH=$PATH:/sciclone/home/ncnallapaneni/programs/gh_2.74.2_linux_amd64/bin
 
 ## I then exited and reconnected the cluster to make sure my .bashrc was working (source .bashrc hasn't been working for me for some reason)
 
-#Task 6
+# Task 6
 
 gh auth login
 
@@ -81,7 +81,7 @@ cd BIOCOMPUTING/
 
 git pull
 
-#Task 7
+# Task 7
 
 ## The following commands are what I did to make sure I could download and setup everything regularly
 cd
@@ -116,7 +116,7 @@ cd seqtk; make
 
 echo "export PATH=$PATH:/sciclone/home/ncnallapaneni/programs/seqtk" >> ~/.bashrc
 
-#Task 8
+# Task 8
 
 ## seqtk was pretty easy and intuitive to work with
 
@@ -128,11 +128,11 @@ seqtk
 
 ## I tried passing commands to all of the possible flags, but some confused me like sample and famask
 
-## THIS ONE WAS EVIL TO START IT CRASHED MY TERMINAL
+## THIS ONE WAS EVIL TO START! IT CRASHED MY TERMINAL!
 
 seqtk seq GCF_000001735.4_TAIR10.1_genomic.fna 
 
-#Task 9
+# Task 9
 
 ## I read ahead and saw that I needed some fasta files so I copied over and made duplicates of the one from assignment 3 into a new data directory in assignment 4
 
