@@ -1,0 +1,3 @@
+#!/bin/bash
+
+paste <(head -n 1) <(tac | head -n 1)
