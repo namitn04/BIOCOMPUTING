@@ -106,7 +106,7 @@ for i in ./data/raw/*R1*; do ./scripts/02_run_fastp.sh $i; done
 
 echo "sucess!"
 
-#### I made a variable for my assignment_05 dir and the navigated to it. I then added an echo line for a sanity check and ran the script with the same command as I did before. I then added another a second echo line for another sanity check and made a for loop that iterates through every forward read in the data directory, as that is how the 02 script parses, and runs the 02_run_fastp on all those reads. Finally I echo "sucess!" to see if my code works.
+#### I made a variable for my assignment_05 dir and then navigated to it. I then added an echo line for a sanity check and ran the script with the same command as I did before. I then added another a second echo line for another sanity check and made a for loop that iterates through every forward read in the data directory, as that is how the 02 script parses. The for loop runs the 02_run_fastp.sh on all those reads. Finally I echo "sucess!" to see if my code works.
 
 ## Task 6 - Delete all the data files and start over
 
@@ -128,7 +128,7 @@ cd ~/BIOCOMPUTING/assignments/assignment_05
 
 ./pipeline.sh
 
-#### This worked perfectly. I was worried I was going to get kicked off the cluster because of how long it was taking though. 
+#### This worked perfectly. I was worried I was going to get kicked off the cluster because of how long it was taking though. pipeline.sh downloads all the reads I wgetted in my 01 script and runs the command from my 02 script on all of them. You must call it from inside the assignment_05 dir or specify a path that takes you to run it from inside the assignment_05 dir.
 
 ## Task 8 - Push to GitHub
 
