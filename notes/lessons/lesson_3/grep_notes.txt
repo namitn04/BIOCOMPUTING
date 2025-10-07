@@ -1,0 +1,50 @@
+grep Mini Cheat Sheet
+
+
+Common Options
+
+-i → Case-insensitive
+
+-n → Show line numbers
+
+-r → Recursive search in dirs
+
+-v → Invert match (exclude)
+
+-c → Count matches
+
+-l / -L → Show files with / without matches
+
+-o → Show only the match itself
+
+
+
+Context Options
+
+-A NUM → Show After lines
+
+-B NUM → Show Before lines
+
+-C NUM → Show Context (before & after)
+
+Example:
+
+grep -C 2 "ERROR" logfile.txt
+
+
+
+Regex Tricks
+
+^pattern → Start of line
+
+pattern$ → End of line
+
+. → Any character
+
+.* → Any number of chars
+
+[abc] → Match a, b, or c
+
+[^abc] → NOT a, b, or c
+
+foo|bar → Match foo OR bar
