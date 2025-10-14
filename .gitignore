@@ -9,4 +9,5 @@ quizzes/
 assignments/assignment_05/data/
 notes/
 *.fastq
-
+*.fasta
+*.log

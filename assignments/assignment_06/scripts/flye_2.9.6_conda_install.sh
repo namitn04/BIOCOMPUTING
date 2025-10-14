@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ueo pipefail
+
 module load miniforge3
 
 export CONDA_PKGS_DIRS="$HOME/.conda/pkgs"

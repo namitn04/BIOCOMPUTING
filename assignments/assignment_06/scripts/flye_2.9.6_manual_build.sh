@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ueo pipefail
+
 cd
 
 cd programs/
