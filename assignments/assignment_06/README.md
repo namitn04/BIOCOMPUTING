@@ -309,6 +309,41 @@ tail assemblies/assembly_module/module_flye.log -n 10
 
 ## Task 9
 
-I deleted everything and ran the script again from my assignment 6 dir:
+I deleted everything and ran the script again from my assignment 6 dir. I also deleted flye from my programs dir and from my bashrc. It all worked when I ran it again!
 
 ---
+
+## Task 10
+
+What pipeline.sh does:
+
+From the assignment_06 directory, run:
+
+./scripts/pipeline.sh
+
+---
+
+The script runs everything in order:
+
+1. Downloads the read data.
+
+2. Builds a **local** copy of Flye from source.
+
+3. Creates a **Conda** environment with flye=2.9.6.
+
+4. Runs Flye three ways:
+   * using the **Conda** env,
+   * using your **local build**,
+   * using the **module** version on the cluster.
+
+5. For each run, it saves outputs under assemblies/ and logs under each run’s folder.
+
+6. At the end, it prints a quick comparison:
+   * the **last 10 lines** from each log (in this order: Conda, Local, Module),
+   * and the **exact Flye binary path** each run used, so you can confirm it switched correctly.
+
+Paths may vary a bit depending on how your BIOCOMPUTING folder is laid out, but if you start in assignment_06 and use the command above, you’re set.
+
+---
+
+Overall this was pretty straightforward from class. The only real hiccup was setting up the Conda environment on the HPC. I fixed it by adding the line to point Conda’s package directory to my home. That made sense once I realized you need your own writable cache on the cluster. I actually learned how to use Conda and build with it instead of just copy-pasting Biostars commands. For methods, I prefer the module or a local build. If a module exists, I’ll use that first since it’s maintained. If not, I’ll try a local install if it isn’t a pain. Conda works, but it can be flaky on shared systems.
