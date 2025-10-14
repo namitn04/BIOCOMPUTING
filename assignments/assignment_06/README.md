@@ -118,6 +118,8 @@ flye
 
 (it worked)
 
+I changed this later. The update is in Task 10.
+
 ---
 
 ## Task 4
@@ -255,6 +257,8 @@ I confirmed each of these scripts were properly referencing the right flye by us
 
 which flye
 
+I also ran them all from the assignment_06 dir by doing ./scripts/whatever_script_it_was.sh
+
 ---
 
 ## Task 7
@@ -314,6 +318,20 @@ I deleted everything and ran the script again from my assignment 6 dir. I also d
 ---
 
 ## Task 10
+
+---
+
+I added this line to my script for manually building flye at the end because I realized the path won't be the same for all users.
+
+echo 'export PATH=$PATH:$HOME/programs/Flye/bin' >> ~/.bashrc
+
+--- 
+
+I ran this line so my dirs would get uploaded to git:
+
+touch assemblies/assembly_conda/blank assemblies/assembly_module/blank assemblies/assembly_local/blank data/blank  
+
+---
 
 What pipeline.sh does:
 
