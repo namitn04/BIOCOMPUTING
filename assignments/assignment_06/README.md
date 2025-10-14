@@ -358,7 +358,6 @@ The script runs everything in order:
 
 6. At the end, it prints a quick comparison:
    * the **last 10 lines** from each log (in this order: Conda, Local, Module),
-   * and the **exact Flye binary path** each run used, so you can confirm it switched correctly.
 
 Paths may vary a bit depending on how your BIOCOMPUTING folder is laid out, but if you start in assignment_06 and use the command above, you’re set.
 
