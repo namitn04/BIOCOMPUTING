@@ -1,0 +1,39 @@
+Downloading ERR10083945
+Downloading SRR24954561
+Downloading SRR24954766
+Downloading SRR24954853
+Downloading SRR24954912
+Downloading SRR24954979
+Downloading SRR24955105
+Downloading SRR24955124
+Downloading SRR24955140
+Downloading ERR14864237
+SRA download done.
+Downloading dog genome.
+Archive:  /sciclone/home/ncnallapaneni/scr10/assignment_07/data/dog_reference/GCF_011100685.1.zip
+  inflating: /sciclone/home/ncnallapaneni/scr10/assignment_07/data/dog_reference/README.md  
+  inflating: /sciclone/home/ncnallapaneni/scr10/assignment_07/data/dog_reference/ncbi_dataset/data/assembly_data_report.jsonl  
+  inflating: /sciclone/home/ncnallapaneni/scr10/assignment_07/data/dog_reference/ncbi_dataset/data/GCF_011100685.1/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna  
+  inflating: /sciclone/home/ncnallapaneni/scr10/assignment_07/data/dog_reference/ncbi_dataset/data/dataset_catalog.json  
+  inflating: /sciclone/home/ncnallapaneni/scr10/assignment_07/data/dog_reference/md5sum.txt  
+Dog download done.
+Running fastp on ERR10083945
+Running fastp on SRR24954561
+Running fastp on SRR24954766
+Running fastp on SRR24954853
+Running fastp on SRR24954912
+Running fastp on SRR24954979
+Running fastp on SRR24955105
+Running fastp on SRR24955124
+Running fastp on SRR24955140
+Running fastp on ERR14864237
+Running bbmap on ERR10083945
+Running bbmap on SRR24954561
+Running bbmap on SRR24954766
+Running bbmap on SRR24954853
+Running bbmap on SRR24954912
+Running bbmap on SRR24954979
+Running bbmap on SRR24955105
+Running bbmap on SRR24955124
+Running bbmap on SRR24955140
+Running bbmap on ERR14864237
