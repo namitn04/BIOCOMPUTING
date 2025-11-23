@@ -11,3 +11,6 @@ notes/
 *.fastq
 *.fasta
 *.log
+assignments/assignment_08/output/slurm_logs/
+*.err
+*.out
