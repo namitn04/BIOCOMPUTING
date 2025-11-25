@@ -65,3 +65,8 @@ A final script was created (`final_cleanup.sh`) to automate and standardize thes
 
 ChatGPT was used to help generate the `final_cleanup.sh`.
 
+I used this command to add my initials to the end of the coverage file names:
+
+```
+$for f in *with_cov.tsv; do     mv "$f" "${f/.with_cov.tsv/.with_cov.nn.tsv}"; done
+```
